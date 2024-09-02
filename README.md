@@ -52,3 +52,36 @@
   - Timer
   - ADC measurements
   - Capacitive touch sensor interrupt
+
+## Pinout Description
+
+![ESP32-DOIT-DEV-KIT-v1-pinout-mischianti](https://github.com/user-attachments/assets/b90570a8-e2a3-48ce-93a4-06126da2ac00)
+
+
+The DoIt ESP32 DevKit V1 features a comprehensive pinout that caters to a wide range of functionalities. Here’s a brief overview of its pinout:
+
+- **GPIO Pins**: The board provides numerous General Purpose Input/Output (GPIO) pins which can be used for various digital input/output functionalities. These pins also support additional features like PWM, I2C, SPI, and more.
+
+- **Analog Inputs**: Several pins on the ESP32 DevKit V1 are capable of reading analog signals, making them suitable for interfacing with analog sensors.
+
+- **3.3V and GND Pins**: These are used to power external components or sensors.
+
+- **5V and GND**: The board can also provide a 5V output, which is useful for powering external modules that require more power.
+
+- **VIN**: This is the input voltage pin, which can be used to power the board when not using the USB connection.
+
+- **EN**: This is the enable pin. It’s used to reset the microcontroller.
+
+- **TX/RX**: These pins are used for serial communication.
+
+- **SPI Interface**: The board has pins for SPI communication, enabling fast data transfer with peripherals like displays or flash memory.
+
+- **I2C Interface**: The ESP32 DevKit V1 supports I2C communication, which is widely used for interfacing with sensors and other peripherals.
+
+- **Touch Sensor Pins**: Some GPIOs can be used as capacitive touch inputs, offering an interface for touch-based input devices.
+
+- **VP/VN**: These are the pins for the internal hall effect sensor.
+
+- **USB-to-UART Bridge**: This feature is crucial for programming the ESP32 using a USB cable and also for serial communication with a computer or other USB host devices.
+
+This board’s flexibility with various protocols and interfaces makes it ideal for a wide range of IoT and embedded system applications.
