@@ -4,17 +4,17 @@ This repository contains scripts for reading and processing data from a USB seri
 
 ## Files
 
-1. **port_check.py**  
+1. **usb.ino**  
+   This Arduino sketch configures a microcontroller to send data over a serial connection. It's intended to be used with the Python scripts in this project.
+
+2. **port_check.py**  
    This script lists all available serial ports on your machine. It's useful for identifying which port your device is connected to.
 
-2. **usb_read.py**  
+3. **usb_read.py**  
    This script establishes a serial connection to a specified port and continuously reads incoming data. It prints the data to the console.
 
-3. **usb_csv.py**  
+4. **usb_csv.py**  
    This script reads data from a specified serial port, filters for lines that start with "Number," and saves the filtered data to a CSV file (`collected_data.csv`).
-
-4. **usb.ino**  
-   This Arduino sketch configures a microcontroller to send data over a serial connection. It's intended to be used with the Python scripts in this project.
 
 ## Usage
 
@@ -44,8 +44,8 @@ The script will collect lines starting with "Number" and save them to collected_
 
 
 ### Requirements:
-Arduino IDE for uploading the .ino sketch to your microcontroller
-Python 3.x
+Arduino IDE for uploading the .ino sketch to your microcontroller<br>
+Python 3.x<br>
 pySerial library, install using:
 ```bash
 pip install pyserial
